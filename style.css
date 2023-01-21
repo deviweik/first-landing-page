@@ -1,0 +1,280 @@
+/*
+* {
+    border: 2px solid red;
+}
+*/
+body {
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+
+/*HEADER SECTION*/
+
+.header {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: #1F2937;
+    align-items: center;
+    max-height: 50px;
+} 
+
+.header .header-logo {
+    flex: 1 1 30%;
+    text-align: center;
+    margin: 2rem 0;
+    padding: 0;
+    font-size: 24px;
+    color: #F9FAF8
+}
+
+.header .header-links {
+    flex-basis: 60%;
+    justify-content: center;
+    display: flex;
+    padding: 0;
+    
+}
+
+.header .header-link {
+    margin: 0;
+    flex-basis: 18%;
+    min-width: 5rem;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 100;
+    color: #E5E7EB;
+    text-align: center;
+
+}
+
+/*HERO SECTION*/
+
+.hero-section {
+    display: flex;
+    background-color: #1F2937;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    flex: 1 1 45%;
+    flex-direction: column;
+    padding-left: 2rem;
+}
+
+.right {
+    display: flex;
+    flex: 1 1 55%;
+    min-width: 200px;
+}
+
+.right .hero-img {
+    display: flex;
+    background-color: #6D747D;
+    color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+    flex: 0 1 60%; 
+    margin: 8rem 4rem;
+    padding: 2rem 0;
+    
+}
+
+.right .hero-img p {
+    padding: 4rem 2.5rem;
+    font-size: 18px;
+}
+
+.left .hero-title {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0 1rem 0 34%;
+    color: #F9FAF8;
+    flex: 0 1 10%;
+    flex-wrap: wrap;
+    min-width: 340px;
+
+}
+
+.left .hero-subtitle {
+    margin: 0 auto 0 34%;
+    font-size: 18px;
+    font-weight: 100;
+    color: #E5E7EB;
+}
+
+.left button {
+    background-color: #3882F6;
+    border-radius: 0.5rem;
+    margin: 1rem 45% 0 34%;
+    padding: 0.5rem;
+    color: white;
+    font-size: 18px;
+    white-space: nowrap;
+    min-width: 5rem;
+    border: none;
+}
+
+.left button:hover {
+    box-shadow: 0 0 5px rgba(137, 137, 137, 0.6);
+    transform: scale(1.03);
+}
+
+/*RANDOM SECTION*/
+
+.random-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.random-section .random-top, .random-section .random-bottom{
+    display: flex;
+    flex-direction: column;
+}
+
+.random-top .random-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    padding: 2rem;
+}
+
+.random-boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.random-boxes div {
+    width: 10%;
+    padding-top: 10%;
+    border: 0.3rem solid #3882F6;
+    border-radius: 1rem;
+    min-width: 8rem;
+    box-sizing: border-box;
+    
+}
+
+.random-bottom .random-text {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 100;
+    color: #1F2937;
+    margin-top: 0;
+    padding-bottom: 4rem;
+}
+
+.random-text p {
+    max-width: 10%;
+    min-width: 8rem;
+}
+
+/*QUOTE SECTION*/
+
+.quote-section {
+    display: flex;
+    background-color: #E5E7EB;
+    margin:0;
+    padding:0;
+}
+
+blockquote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 100;
+    padding: 4rem 25%;
+}
+
+blockquote footer {
+    text-align: right;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    padding-right: 3rem;
+}
+
+/*CALL TO ACTION SECTION*/
+
+.CTA-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem;
+    margin:0;
+}
+
+.CTA-section .CTA {
+    display: flex;
+    flex-basis: 70%;
+    border-radius: 1rem;
+    background-color: #3882F6;
+}
+
+.CTA-left {
+    padding: 0 0 0 10%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.CTA-right {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.CTA-title {
+    font-size: 24px;
+    color: white;
+    padding: 3rem 0 0 0;
+    margin: 0;
+}
+
+.CTA-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 0 0 3rem 0;
+    margin: 0;
+}
+
+.CTA-button {
+    background-color: #3882F6;
+    color: white;
+    border: 0.15rem solid white;
+    border-radius: 0.3rem;
+    width: 30%;
+    height: 25%;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.CTA-right button:hover {
+    box-shadow: 0 0 5px rgba(137, 137, 137, 0.9);
+    transform: scale(1.03);
+}
+
+/*FOOTER*/
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.footer-text {
+    font-size: 18px;
+    font-weight: 100;
+    color: #E5E7EB;
+}
